@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "my-project"
+version = "0.1.0"
+description = ""
+authors = ["denisgaldin <denisgaldin@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+selene = "2.0.0rc9"
+pytest = "8.3.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
